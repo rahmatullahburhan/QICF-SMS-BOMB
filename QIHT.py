@@ -1,5 +1,5 @@
 # QIHT SMS bombing 
-import os,sys,time,request,random,string
+import os,sys,time,requests,random,string
 import random
 def Axak(xak):
 	for x in xak:

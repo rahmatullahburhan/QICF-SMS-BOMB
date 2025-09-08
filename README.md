@@ -1,4 +1,4 @@
-<div align="center">
+<div align="left">
 
 # 📌 Qawmian Islamic Cyber Force - QICF
 
@@ -45,7 +45,7 @@ apt update -y; apt upgrade -y; pkg install git -y; pkg install python -y; pip in
 
 ## 📎 Official Facebook Page
 
-👉 [𝗤𝗮𝘄𝗺𝗶𝗮𝗻 𝗜𝘀𝗹𝗮𝗺𝗶𝗰 𝗖𝘆𝗯𝗲𝗿 𝗙𝗼𝗿𝗰𝗲 - 𝗤𝗜𝗖𝗙](https://facebook.com/QICFOfficial)
+👉 [𝗤𝗮𝘄𝗺𝗶𝗮𝗻 𝗜𝘀𝗹𝗮𝗺𝗶𝗰 𝗖𝘆𝗯𝗲𝗿 𝗙𝗼𝗿𝗰𝗲 - 𝗤𝗜𝗖𝗙](https://facebook.com/QICFOfficial2)
 
 ---
 
